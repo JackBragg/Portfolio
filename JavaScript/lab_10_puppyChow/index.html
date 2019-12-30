@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quote</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel='stylesheet' href='./css/pup.css'>
+</head>
+<body>
+
+  <div class='container'>
+    <div id='puppyChow'>
+      <div>
+        <input v-model:value='ingr' type="text" name="ingredients" placeholder='ingredient'>
+      </div>
+      <div>
+        <button class='mahbtn' v-on:click='add'>Add ingredient</button>
+        <button v-on:click='get'>submit</button>
+        <button v-on:click='clear'>clear</button>
+      </div>
+      {{ ingrs }}
+      <div style='border: 10px solid black; min-height: 200px;'>
+        <a v-bind:href='recipe_link'>{{recipe}}</a>
+        </div>
+    </div>
+  
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script src='./js/pup.js'></script>
+</body>
+</html>

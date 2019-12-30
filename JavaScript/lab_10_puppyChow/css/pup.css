@@ -1,0 +1,11 @@
+body {
+	height: 400px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mahbtn {
+	height: 40px;
+	width: 100px;
+}

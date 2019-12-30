@@ -1,0 +1,36 @@
+body {
+	background-color: #F0F0F0;
+	display: flex;
+	justify-content: center;
+	height: 8000px;
+}
+
+.rot-input-wrapper {
+	overflow: visible;
+	margin: 40px; 
+	border: 4px solid blue; 
+	height: 4000px;}
+
+
+.rot-input {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px;
+	border: 4px solid red;
+}
+
+#btnOne {
+	background-color: green;
+}
+
+#my-btn-dec-link:visited > button {
+	background-color: blue;
+}
+
+#my-btn-dec-link:hover > button {
+	background-color: red;
+}
+
+#decode-wrapper {
+	visibility: hidden;
+}
